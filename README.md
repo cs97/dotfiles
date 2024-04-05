@@ -14,6 +14,24 @@ sudo dnf install cargo
 sudo dnf install mousepad
 ```
 
+### snap
+```
+sudo dnf install snapd
+```
+
+```
+sudo ln -s /var/lib/snapd/snap /snap
+```
+### rust editor
+```
+sudo snap install rustrover --edge --classic
+```
+### java editor
+```
+sudo snap install intellij-idea-community --classic
+```
+
+
 
 ### sway status
 ```
