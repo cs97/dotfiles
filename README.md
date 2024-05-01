@@ -14,7 +14,7 @@ sudo dnf install cargo
 sudo dnf install mousepad
 ```
 
-### snap
+## snap
 ```
 sudo dnf install snapd
 ```
@@ -25,6 +25,9 @@ sudo ln -s /var/lib/snapd/snap /snap
 ### rust editor
 ```
 sudo snap install rustrover --edge --classic
+```
+```
+sudo emerge --ask --verbose openjdk
 ```
 ### java editor
 ```
