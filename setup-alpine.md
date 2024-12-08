@@ -12,11 +12,14 @@ doas command with arguments
 ```
 setup-desktop
 ```
+```
+apk add swaybg
+```
 
 
 # some tools
 ```
-apk add swaybg cargo rust git htop
+apk add cargo rust git htop podman
 ```
 
 
