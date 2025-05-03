@@ -3,9 +3,7 @@
 ```
 apk add doas 
 echo 'permit :wheel' > /etc/doas.d/doas.conf 
-adduser USER_NAME wheel 
-su -l joe 
-doas command with arguments
+adduser USER_NAME wheel
 ```
 
 # setup Desktop (sway)
@@ -19,7 +17,18 @@ apk add swaybg
 
 # some tools
 ```
-apk add cargo rust git htop podman
+apk add git htop podman
+```
+
+# cargo, rustlang
+```
+apk add rustup
+```
+```
+rustup-init
+```
+```
+source "$HOME/.cargo/env"
 ```
 
 
