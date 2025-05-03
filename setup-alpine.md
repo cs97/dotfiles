@@ -31,4 +31,10 @@ rustup-init
 source "$HOME/.cargo/env"
 ```
 
+# EFI
+```
+efibootmgr --create --disk /dev/sda --part 1 --label "Grub" --loader \\EFI\\alpine\\grubx64.efi 
+```
+
+
 
