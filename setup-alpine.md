@@ -36,5 +36,11 @@ source "$HOME/.cargo/env"
 efibootmgr --create --disk /dev/sda --part 1 --label "Grub" --loader \\EFI\\alpine\\grubx64.efi 
 ```
 
-
-
+# LAPCE
+```
+akp add lapce
+```
+### fix
+```
+DRI_PRIME=1 lapce ./files/
+```
