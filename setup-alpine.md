@@ -30,6 +30,9 @@ rustup-init
 ```
 source "$HOME/.cargo/env"
 ```
+```
+apk add build-base
+```
 
 # EFI
 ```
