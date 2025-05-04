@@ -47,3 +47,11 @@ akp add lapce
 ```
 DRI_PRIME=1 lapce ./files/
 ```
+
+### zed
+```
+apk add libx11-dev protobuf-dev cmake alsa-lib-dev libxkbcommon-dev
+```
+```
+export RUSTFLAGS="$RUSTFLAGS -C target-feature=-crt-static"
+```
