@@ -7,10 +7,10 @@ git clone https://github.com/cs97/dotfiles
 ```
 
 ```
-mkdir -p ~/.config/sway```
+mkdir -p ~/.config/sway
 ```
 
 ```
-cp dotfiles/sway/.config .config/sway/config 
+cp dotfiles/sway/.config ~/.config/sway/config 
 ```
 
