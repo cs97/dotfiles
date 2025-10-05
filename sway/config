@@ -31,7 +31,7 @@ output * scale 1.00
 #exec gentoo-pipewire-launcher
 #exec --no-startup-id /usr/libexec/xdg-desktop-portal -r
 #exec --no-startup-id dbus-update-activation-environment --all
-
+exec /usr/libexec/pipewire-launcher
 
 # Default wallpaper
 output * bg $wallpaper fill
