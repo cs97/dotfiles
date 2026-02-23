@@ -18,9 +18,10 @@ set $wallpaper "/usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png"
 
 set $menu dmenu_path | dmenu | xargs swaymsg exec --
 
-output * scale 1.00
+output * scale 1.10
 
-#default_border pixel 2
+default_border pixel 1
+hide_edge_borders smart
 
 
 #   swaymsg -t get_outputs
