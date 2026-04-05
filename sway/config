@@ -82,7 +82,7 @@ output * bg $wallpaper fill
     #bindsym XF86AudioLowerVolume exec amixer -D pipewire sset Master 5%-
 
     #bindsym $mod+v exec wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle
-    pactl set-source-mute @DEFAULT_SOURCE@ toggle
+    #pactl set-source-mute @DEFAULT_SOURCE@ toggle
 
     # Firefox
     bindsym $mod+f exec firefox
